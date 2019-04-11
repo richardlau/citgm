@@ -17,7 +17,13 @@
           "time": "0.05"
         },
         "system-out": ["\n       Thanks for testing!\n    "],
-        "skipped": [""],
+        "skipped": [
+          {
+            "$": {
+              "message": "flaky"
+            }
+          }
+        ],
         "failure": [
           {
             "_": "[object Object] ",
@@ -48,7 +54,13 @@
           "time": "NaN"
         },
         "system-out": ["\n      \n    "],
-        "skipped": [""]
+        "skipped": [
+          {
+            "$": {
+              "message": "skipped"
+            }
+          }
+        ]
       }
     ]
   }

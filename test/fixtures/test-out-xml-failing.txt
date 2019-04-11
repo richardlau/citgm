@@ -8,7 +8,7 @@
     <system-out>
       <![CDATA[ Thanks for testing!]]>
     </system-out>
-    <skipped/>
+    <skipped message="flaky"/>
     <failure message="module test suite failed">[object Object] </failure>
   </testcase>
   <testcase name="iFail-v3.0.1" time="0.05">
@@ -21,7 +21,7 @@
     <system-out>
       <![CDATA[]]>
     </system-out>
-    <skipped/>
+    <skipped message="skipped"/>
   </testcase>
 </testsuite>
 
