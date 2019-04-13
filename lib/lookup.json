@@ -419,6 +419,12 @@
     "flaky": true,
     "maintainers": "rauchg"
   },
+  "sodium-native": {
+    "maintainers": ["mafintosh", "emilbayes"],
+    "prefix": "v",
+    "tags": "native",
+    "useGitClone": "true"
+  },
   "spawn-wrap": {
     "prefix": "v",
     "flaky": ["sles", "aix", "darwin"],
