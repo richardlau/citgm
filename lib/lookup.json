@@ -357,9 +357,11 @@
     "skip": true
   },
   "npm": {
+    "envVar": {"TAP_COLORS": "0"},
     "maintainers": ["nodejs/npm"],
     "prefix": "v",
-    "skip": ["aix", "s390"]
+    "skip": ["aix", "s390"],
+    "stripAnsi": true
   },
   "path-to-regexp": {
     "prefix": "v",
